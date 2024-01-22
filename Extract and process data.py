@@ -12,7 +12,7 @@ masterD=pandas.DataFrame.from_csv('master_dict.csv', index_col=0)
 uncerD=xlrd.open_workbook('uncertainty_dictionary.xlsx').sheet_by_index(0)
 uncernL=[]
 consL=[]
-urlSt='https://www.sec.gov/Archives/'
+urlSt='https://www.data.gov.in/files/'
 rxl=xlrd.open_workbook('cik_list.xlsx')
 rsheet=rxl.sheet_by_index(0)
 osheet=xlwt.Workbook()
